@@ -1,0 +1,63 @@
+/* Tell <body> it's a flex container, laid out as a column */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+/* Tell <main> it's a flex container, laid out as a row */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Take available space between header and footer */
+}
+
+/* Set layout proportions: article = 2/3, aside = 1/3 */
+article {
+    flex: 2;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+/* Tell <body> it's a flex container, laid out as a column */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+/* Tell <main> it's a flex container, laid out as a row */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; /* Take available space between header and footer */
+}
+
+/* Set layout proportions: article = 2/3, aside = 1/3 */
+article {
+    flex: 2;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Aside = 1/3 */
+aside {
+    flex: 1;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Optional: basic header/footer styling for clarity */
+header, footer {
+    background-color: #ddd;
+    padding: 1em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
